@@ -1,0 +1,98 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,400;1,600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@1,100;1,200;1,400;1,600&display=swap');
+ body
+ {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins' ,sans-serif;
+   background-image: url('image.jpg');
+   background-size: cover;
+  background-position: center;
+  color: rgb(255, 21, 0);
+ }
+ .container
+ {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .head p
+ {
+    font-size: 15px;
+    text-align: center;
+ }
+ .head .newyear
+ {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+ }
+ .counter
+ {
+    display: flex;
+    
+ }
+ .box
+ {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+ }
+ .box h2{
+    font-size: 25px;
+    font-weight: 600;
+ }
+ .box p
+ {
+    font-size:13px;
+ }
+@media(min-width:576px)
+{
+ .head p {
+    font-size: 18px;
+ }
+ .newyear
+ {
+    font-size: 100px;
+ }
+ .box{
+    width: 100px;
+    height: 70px;
+ }
+ .box h2
+ {
+    font-size: 30px;
+ }
+ .box p
+ {
+    font-size: 15px;
+ }
+}
+@media(min-width:768px)
+{
+ .head p {
+    font-size: 25px;
+ }
+ .head .newyear
+ {
+    font-size: 100px;
+    font-weight: 500;
+ }
+ .box{
+    width: 150px;
+    height: 80px;
+ }
+ .box h2
+ {
+    font-size: 50px;
+ }
+ .box p
+ {
+    font-size: 20px;
+ }
+} 
+ 
